@@ -1,10 +1,23 @@
-// function to iterates through objects.
+export default function createIteratorObject(report) {
+  const all = Object.values(report.allEmployees).reduce((a, b) => {
+    a.push(...b);
+    return a;
+  }, []);
 
-export default function iterateThroughObject(reportWithIterator) {
-  // hope it works
-  const result = [];
-  for (const item of reportWithIterator) {
-    result.push(item);
-  }
-  return result;
+  let currIndex = 0;
+  const maxIndex = all.length;
+
+  return {
+    next() {
+      if (currIndex < maxIndex) {
+        const result = { value: all[currIndex], done: false };
+        currIndex += 1;
+        return result;
+      }
+      return { value: null, done: true };
+    },
+    [Symbol.iterator]() {
+      return this; // The iterator should return itself
+    },
+  };
 }
