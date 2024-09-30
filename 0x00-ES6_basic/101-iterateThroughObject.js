@@ -1,23 +1,11 @@
-export default function createIteratorObject(report) {
-  const all = Object.values(report.allEmployees).reduce((a, b) => {
-    a.push(...b);
-    return a;
-  }, []);
+export default function iterateThroughObject(reportWithIterator) {
+  // Collect all employee names in an array
+  const result = [];
+  
+  for (const item of reportWithIterator) {
+    result.push(item);
+  }
 
-  let currIndex = 0;
-  const maxIndex = all.length;
-
-  return {
-    next() {
-      if (currIndex < maxIndex) {
-        const result = { value: all[currIndex], done: false };
-        currIndex += 1;
-        return result;
-      }
-      return { value: null, done: true };
-    },
-    [Symbol.iterator]() {
-      return this; // The iterator should return itself
-    },
-  };
+  // Join the employee names with " | " as a separator and return as a string
+  return result.join(' | ');
 }
