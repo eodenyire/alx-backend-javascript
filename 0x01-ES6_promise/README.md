@@ -148,7 +148,28 @@ This file provides utility functions `uploadPhoto` and `createUser` used in seve
 
 ---
 
-## Author
+## Author 
+## About Me
+I am a Senior Data Analytics Engineer at Safaricom PLC, specializing in data engineering, machine learning, and building scalable ETL systems. I have experience with technologies like Apache NiFi, Informatica PowerCenter, Python, and AWS. I am passionate about leveraging data to drive business value and have a strong foundation in full-stack software engineering, system engineering, and cloud platforms.
+
+## Experience
+- **Senior Data Analytics Engineer, Safaricom PLC** (2022 - Present)
+- **Data Science Citizen Cohort 3, Safaricom PLC(Vodacom Data Science Citizen Program)**
+- **Head of ICT and ICT Instructor, Mucho Mangoes Limited**
+- **Data Science Citizen Cohort 3, Safaricom PLC**
+- **Technical Support Engineer, Kenya Development Corporation Limited**
+- **Technical Support Engineer, Industrial and Commerical Development Corporation**
+- **Technical Support Engineer, Sote Hub**
+
+## Education
+- **Master of Science in Data Science**, The Cooperative University of Kenya
+- **ALX Software Engineering**, Holberton School
+
+## Contact
+- **Email:** [eodenyire@gmail.com](mailto:eodenyire@gmail.com)
+- **LinkedIn:** [linkedin.com/in/emmanuelodenyire](https://linkedin.com/in/emmanuelodenyire)
+- **GitHub:** [github.com/eodenyire](https://github.com/eodenyire)
+
 This project was completed as part of the **ALX Backend JavaScript** curriculum.
 
 - **GitHub repository:** [alx-backend-javascript](https://github.com/eodenyire/alx-backend-javascript)
