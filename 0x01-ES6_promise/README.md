@@ -156,7 +156,6 @@ I am a Senior Data Analytics Engineer at Safaricom PLC, specializing in data eng
 - **Senior Data Analytics Engineer, Safaricom PLC** (2022 - Present)
 - **Data Science Citizen Cohort 3, Safaricom PLC(Vodacom Data Science Citizen Program)**
 - **Head of ICT and ICT Instructor, Mucho Mangoes Limited**
-- **Data Science Citizen Cohort 3, Safaricom PLC**
 - **Technical Support Engineer, Kenya Development Corporation Limited**
 - **Technical Support Engineer, Industrial and Commerical Development Corporation**
 - **Technical Support Engineer, Sote Hub**
