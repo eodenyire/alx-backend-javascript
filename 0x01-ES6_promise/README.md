@@ -52,7 +52,7 @@ In your project directory, install `Jest`, `Babel`, and `ESLint` by running:
 
 ```bash
 npm install
-
+```
 ## Configuration Files
 
 ### `package.json`
@@ -77,6 +77,7 @@ This file provides utility functions `uploadPhoto` and `createUser` used in seve
   "status": 200,
   "body": "photo-profile-1"
 }
+```
 
 ## Response Data Format
 
@@ -86,6 +87,7 @@ This file provides utility functions `uploadPhoto` and `createUser` used in seve
   "firstName": "Guillaume",
   "lastName": "Salva"
 }
+```
 
 ## Tasks
 
